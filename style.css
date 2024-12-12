@@ -1,0 +1,82 @@
+.yugi{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+.patricia {
+    color: rgb(26, 26, 67);
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    overflow:hidden;
+    margin-top: 5%;
+    margin-left: 2.5%;
+    font-size: 20px;
+}
+.patricia1{
+    font-style: italic;
+}
+.patricia2{
+    font-style: italic;
+    font-size: 12px;
+}
+.uhmar{
+    color: rgb(26, 26, 67);
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-y: auto;
+    margin-left: 35%;
+}
+#skills{
+    color: white;
+}
+button{
+    color: rgb(26, 26, 67);
+    background-color: rgb(212, 124, 53);
+    border-radius: 20px;
+    
+}
+.header{
+    display: flex;
+    background-color: rgb(216, 216, 211);
+    position: fixed;
+    height: 10vh;
+    overflow-y: auto;
+    top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    opacity: 0.9;
+}
+.contact{
+    margin-left: 10%;
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(26, 26, 67);
+}
+.about{
+    margin-left: 70%;
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(26, 26, 67);
+}
+body{
+    background-color: rgb(216, 214, 211);
+}
+.resume{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(55, 55, 72);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.projectImages{
+    width: 90%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px rgba(26, 26, 67, 1);
+}
+.list{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bolder;
+}
+.socmed{
+    width: 4%;
+}
