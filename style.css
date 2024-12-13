@@ -8,9 +8,18 @@
     font-family: Arial, Helvetica, sans-serif;
     position: fixed;
     overflow:hidden;
-    margin-top: 5%;
-    margin-left: 2.5%;
     font-size: 20px;
+    width: 300px;
+    height: 460%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding-left: 20px;
+    padding-top: 90px;
+    border-radius: 20px;
+}
+.patricia:hover{
+    transform: scale(1.01) translateY(-1px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
 }
 .patricia1{
     font-style: italic;
@@ -80,7 +89,7 @@ body{
     margin-left: 20px;
 }
 .socmed{
-    width: 4%;
+    width: 30px;
 }
 .containImg{
     background-color: rgb(255, 255, 255);
