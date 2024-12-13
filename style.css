@@ -10,10 +10,10 @@
     overflow:hidden;
     font-size: 20px;
     width: 300px;
-    height: 400px;
+    height: 320px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     padding-left: 20px;
-    padding-top: 90px;
+    padding-top: 20px;
     border-radius: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
 }
@@ -32,12 +32,14 @@
 }
 .uhmar{
     color: rgb(26, 26, 67);
-    font-family:'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     overflow-y: auto;
     margin-left: 370px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-style: normal;
+    background-color: rgb(173, 190, 200);
 }
 .uhmar:hover{
     border-radius: 20px;
@@ -79,11 +81,12 @@ body{
     background-color: rgb(216, 214, 211);
 }
 .resume{
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold;
     color: rgb(55, 55, 72);
-    font-family:'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     margin-left: 20px;
+    padding: none;
 }
 .projectImages{
     max-width: 90%;
@@ -94,8 +97,15 @@ body{
     font-size: 30px;
     font-style: italic;
     font-weight: bolder;   
-    color: black;
-    margin-left: 20px;
+    color: rgb(98, 98, 98);
+    margin-left: 25px;
+    text-decoration: none;
+}
+.list:hover{
+    color: rgb(155, 111, 49);
+    font-style: italic;
+    transform: 1px;
+    text-transform: lowercase;
 }
 .socmed{
     width: 30px;
