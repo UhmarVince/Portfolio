@@ -23,7 +23,7 @@
     color: rgb(26, 26, 67);
     font-family: Arial, Helvetica, sans-serif;
     overflow-y: auto;
-    margin-left: 35%;
+    margin-left: 400px;
 }
 #skills{
     color: white;
@@ -65,18 +65,29 @@ body{
     font-weight: bold;
     color: rgb(55, 55, 72);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    margin-left: 20px;
 }
 .projectImages{
-    width: 90%;
-    border-radius: 20px;
-    box-shadow: 10px 10px 0px rgba(26, 26, 67, 1);
+    max-width: 90%;
+    margin: 20px auto;
+    display: block;
 }
 .list{
     font-size: 30px;
     font-style: italic;
-    font-weight: bolder;
+    font-weight: bolder;   
+    color: black;
+    margin-left: 20px;
 }
 .socmed{
     width: 4%;
+}
+.containImg{
+    background-color: rgb(255, 255, 255);
+    display: inline-block; /* Makes the container fit tightly around the image */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px; 
 }
