@@ -92,6 +92,7 @@ body{
     max-width: 90%;
     margin: 20px auto;
     display: block;
+    border-radius: 20px;
 }
 .list{
     font-size: 30px;
